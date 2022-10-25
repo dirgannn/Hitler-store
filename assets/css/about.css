@@ -194,11 +194,12 @@ nav .container-fluid {
 
 /* About */
 #about {
-  margin-top: 8%;
+  margin-top: 5.6%;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   margin-bottom: 28px;
+  background-color: black;
 }
 
 .about1 h5 {
@@ -209,6 +210,92 @@ nav .container-fluid {
   font-family: "pragmatica-extended", sans-serif;
   color: #fff;
 }
+
+.about1 {
+  margin-bottom: 20px;
+}
+
+.about1 h1 {
+  font-size: 90px;
+  font-family: pragmatica, sans-serif;
+  font-display: swap;
+  font-weight: 900;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  margin-bottom: -0.02em;
+  line-height: 0.8;
+  width: 199%;
+  -webkit-text-fill-color: #151515;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+  margin-top: 24px;
+  text-shadow: 4px 4px 0px #fff;
+}
+
+.about2 h1 {
+  font-size: 72px;
+  font-display: swap;
+  font-weight: 900;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  line-height: 0.8;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.about2 {
+  margin: 46px;
+  position: relative;
+  top: -100px;
+}
+
+#about .row {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#about .row .col:nth-child(1) {
+  display: flex;
+  left: 0;
+  flex-direction: column;
+  justify-content: end;
+  margin: 10px 42px;
+}
+
+.text1 p {
+  color: white;
+  font-size: calc((1.4 - 1) * 1.2vw + 1rem);
+  width: 770;
+  font-weight: 400;
+}
+
+#about .row .col:nth-child(2) {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+#about .row .col:nth-child(2) p:nth-child(1) {
+  font-size: 0.7em;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-family: "pragmatica-extended", sans-serif;
+}
+#about .row .col:nth-child(2) p:nth-child(3) {
+  color: black;
+  font-size: calc((1.4 - 1) * 1.2vw + 0.8rem);
+  width: 770;
+  font-weight: 400;
+}
+
+.about2 p {
+  margin: 10px 11px;
+}
+/* Footer */
 
 .footer {
   background-color: #24262b;
@@ -465,5 +552,77 @@ nav .container-fluid {
 @media screen and (max-width: 509px) {
   #header #mek #button {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1357px) {
+  .about1 h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 1061px) {
+  .about1 h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .about1 h1 {
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  .about1 h1 {
+    font-size: 45px;
+    width: 120%;
+  }
+}
+
+@media screen and (max-width: 712px) {
+  .about1 h1 {
+    font-size: 34px;
+    width: 110%;
+  }
+}
+
+@media screen and (max-width: 1196px) {
+  .about2 {
+    margin-top: 129px;
+  }
+  .about2 h1 {
+    width: 123%;
+  }
+}
+
+@media screen and (max-width: 1041px) {
+  .about2 {
+    margin-top: 194px;
+  }
+  .about2 h1 {
+    width: 122%;
+    font-size: 57px;
+  }
+}
+@media screen and (max-width: 943px) {
+  .about2 h1 {
+    width: 122%;
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 836px) {
+  .about2 h1 {
+    width: 122%;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 447px) {
+  #about .row .col:nth-child(1) {
+    margin: 158px 74px;
+  }
+  .about1 {
+    margin-top: 50px;
   }
 }
