@@ -35,10 +35,6 @@ function buy(product_name, product_price) {
   open(whatsapp, "_blank");
 }
 
-function chat() {
-  alert("Halo gan saya mau tanya nih...");
-}
-
 var terms = new Array();
 var max = 6;
 
